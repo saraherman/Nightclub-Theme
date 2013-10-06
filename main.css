@@ -1,0 +1,365 @@
+html{
+	
+	background-color: #000;
+}
+
+body{
+	background-image: url(images/background.png);
+	width: 1920px;
+	height: 1247px;
+	margin: auto;
+}
+
+/*-------------------------header-------------------------*/
+
+.header{
+	width: 1920px;
+	height: 205px;
+}
+
+.nav-bar{
+	width: 1920px;
+	height: 60px;
+	background-image: url(images/transparency-90-gradient.png);
+}
+
+.nav-bar ul{
+	margin: auto;
+	/*text-align: center;*/
+	width: 960px;
+	padding: 0px;
+}
+
+.nav-bar li{
+	padding-left:55px;
+	padding-top: 16px;
+	padding-bottom: 17px;
+	border-right: 2px ridge #1a1a1d;
+	text-decoration: none;
+	display: inline-block;
+	float: left;
+	width: 103px;
+}
+
+.nav-bar li:first-of-type{
+	border-left: 2px ridge #1a1a1d;
+	width: 101px;
+}
+
+.nav-bar a{
+	font-family: "Myriad Pro";
+	font-size: 22px;
+	color: #7f7f7f;
+	text-decoration: none;
+}
+
+.logo{
+	color: #fff;
+	width: 962px;
+	height: 146px;
+	margin: auto;
+}
+
+.logo h1{
+	font-size: 76px;
+	font-family:"NewsGothicBT Bold","Myriad Pro";
+	text-shadow: 0px 0px 10px #fff;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 50px;
+	padding-top: 20px;
+}
+
+.logo h3{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	font-size: 20px;
+	font-family:"NewsGothicBT Roman","Myriad Pro";
+	position: relative;
+	top: -20px;
+	left: 200px;
+}
+
+.purple-text{
+	color: #7532a9;
+}
+
+span.purple-glow{
+	text-shadow: 0px 0px 10px #7532a9;
+}
+
+.purple-box{
+	color: #fff;
+	background-color: #622698;
+}
+
+/*-------------------------main-------------------------*/
+/*-------------------------different kinds of containers used in main: text-square, -------------------------*/
+
+.main{
+	width: 860px;
+	height: 721px;
+	margin: auto;
+	background-image:url(images/transparency-95.png);
+	padding: 50px;
+}
+
+.main h1{
+	font-size: 40px;
+	color: #fff;
+	margin: 20px 0px;
+	font-family:"NewsGothicBT Roman","Myriad Pro";
+}
+
+.main h2{
+	margin: 20px 0px;
+	font-family:"NewsGothicBT Roman","Myriad Pro";
+}
+
+.main p{
+	color: #fff;
+	font-size: 14px;
+	font-family: arial;
+	line-height: 25px;
+	margin-top: 0px;
+}
+
+.main .grey-text{
+	color:#7f7f7f;
+}
+
+.right{
+	float: right;
+}
+
+.left{
+	float: left;
+}
+
+.main li{
+	list-style-image: url(images/list-img.png);
+	color: #fff;
+	line-height: 25px;
+}
+
+.main ul{
+	padding-left: 15px;
+}
+
+/*-------------------------text-square / used on club page-------------------------*/
+
+.text-square{
+	width: 405px;
+	height: 330px;
+	display: inline-block;
+}
+
+.text-square{
+
+}
+
+.events p{
+	margin-bottom: 0px;
+}
+
+.events{
+	margin-bottom: 30px;
+}
+
+.date-circle{
+	font-family:"NewsGothicBT Roman","Myriad Pro";
+	color: #fff;
+	background-color: #7330a7;
+	width: 85px;
+	height: 85px;
+	box-shadow: 0px 0px 20px 10px #401c5c;
+	border-radius: 41px;
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+.date-circle h1{
+	font-size: 48px;
+	font-weight: bold;
+	margin: 0px;
+	line-height: 50px;
+	position: relative;
+	left: 15px;
+	top: 5px;
+}
+
+.date-circle p{
+	font-size: 19px;
+	margin: 0px;
+	position: relative;
+	left: 15px;
+}
+
+.buttons{
+	float: right;
+	width: 67px;
+	height: 31px;
+	position: relative;
+	top: -26px;
+}
+
+div.white-button{
+	width: 31px;
+	height: 31px;
+	box-shadow: 0px 0px 5px 0px #fff;
+	display: inline-block;
+}
+
+/*-------------------------large-content : used on club page-------------------------*/
+
+.large-content{
+	width: 863px;
+	height: 396px;
+	font-family: arial;
+}
+
+.large-content h2{
+	margin-top: 0px;
+}
+
+.next-event{
+	width: 261px;
+	height: 292px;
+	background-image: url(images/heels.png);
+	font-family: "NewsGothicBT Roman", "Myriad Pro";
+	display: inline-block;
+	float: left;
+	color: #fff;
+	margin-right: 39px;
+}
+
+.next-event p{
+	font-size: 26px;
+	padding-left: 6px;
+	padding-top: 3px;
+	margin-left: 20px;
+}
+
+.next-event h2{
+	margin-left: 20px;
+	margin-bottom: 0px;
+}
+
+.large-text{
+	font-size: 60px;
+}
+
+.bold-text{
+	font-weight: bold;
+}
+
+.transparent-black{
+	background-image: url(images/transparency-85.png);
+}
+
+.next-event .transparent-black{
+	position: relative;
+	top: 54px;
+}
+
+.large-content .purple-box{
+	width: 135px;
+	height: 32px;
+}
+
+.big-text{
+	font-size: 50px;
+}
+
+.large-content .text{
+	display: inline-block;
+	float: left;
+	width: 562px;
+	height: 292px;
+}
+
+
+
+
+/*-------------------------footer-------------------------*/
+
+.footer{
+	width: 960px;
+	height: 222px;
+	margin: auto;
+	background-image:url(images/transparency-95.png);
+}
+
+.footer-section{
+	width: 259px;
+	height: 202px;
+	display: inline-block;
+	float: left;
+	padding-left: 40px;
+	padding-top: 10px;
+}
+
+.footer-section.mid{
+	margin-right: 16px;
+	padding-left: 40px;
+	width: 284px;
+}
+
+.vert-div{
+	border-left: 1px solid #292827;
+	height: 172px;
+	display: inline-block;
+	float: left;
+}
+
+.footer-list{
+	display: inline-block;
+	float: left;
+}
+
+.footer-list:first-of-type{
+	margin-right: 40px;
+}
+
+.footer ul{
+	padding-left: 0px;
+	margin: 0px;
+}
+
+.footer li{
+	padding-bottom: 8px;
+}
+
+.footer p{
+	font-family: arial;
+	font-size: 14px;
+	color: #fff;
+	margin: 0px;
+}
+
+.footer a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer h1{
+	color: #7f7f7f;
+	font-size: 30px;
+	font-family: "NewsGothicBT Roman", "Myriad Pro";
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+.footer h2{
+	color: #fff;
+	font-family: "NewsGothicBT Roman", "Myriad Pro";
+	font-size: 29px;
+	margin: 0px;
+}
+
+.footer img{
+	padding-left: 6px;
+}
