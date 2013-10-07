@@ -20,7 +20,7 @@
 				<p class="grey-text">adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				<p><a href="">View Details</a></p>
 			</div>
-			<div class="events">
+			<div class="date">
 				<div class="date-circle">
 					<h1>26</h1>
 					<p>august</p>
@@ -38,7 +38,7 @@
 
 		<div class="large-content">
 			<h1>Next Party</h1>
-			<div class="next-event">
+			<div class="event rnb">
 				<h2 class="large-text bold-text">03.09</h2>
 				<p class="purple-box">wednesday</p>
 				<div class="transparent-black">
@@ -46,7 +46,7 @@
 				</div>
 			</div>
 
-			<div class="text">
+			<div class="text left">
 				<h2 class="purple-text">Best RNE from Europe</h2>
 				<p class="grey-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo:</p>
 				<ul>

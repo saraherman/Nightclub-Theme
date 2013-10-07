@@ -1,32 +1,32 @@
-html{
-	
-	background-color: #000;
-}
+
 
 body{
 	background-image: url(images/background.png);
-	width: 1920px;
-	height: 1247px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: auto;
+}
+
+.container{
+	width: 962px;
 	margin: auto;
 }
 
 /*-------------------------header-------------------------*/
 
 .header{
-	width: 1920px;
+	width: 100%;
 	height: 205px;
 }
 
 .nav-bar{
-	width: 1920px;
+	width: 100%;
 	height: 60px;
 	background-image: url(images/transparency-90-gradient.png);
 }
 
 .nav-bar ul{
-	margin: auto;
-	/*text-align: center;*/
-	width: 960px;
 	padding: 0px;
 }
 
@@ -55,7 +55,7 @@ body{
 
 .logo{
 	color: #fff;
-	width: 962px;
+	width: 100%;
 	height: 146px;
 	margin: auto;
 }
@@ -95,14 +95,12 @@ span.purple-glow{
 }
 
 /*-------------------------main-------------------------*/
-/*-------------------------different kinds of containers used in main: text-square, -------------------------*/
+/*-------------------------different kinds of containers used in main: text-square, event, gallery-------------------------*/
 
 .main{
-	width: 860px;
-	height: 721px;
-	margin: auto;
 	background-image:url(images/transparency-95.png);
-	padding: 50px;
+	padding: 11px 50px 0px 50px;
+	float:left;
 }
 
 .main h1{
@@ -110,23 +108,31 @@ span.purple-glow{
 	color: #fff;
 	margin: 20px 0px;
 	font-family:"NewsGothicBT Roman","Myriad Pro";
+	clear: left;
 }
 
 .main h2{
-	margin: 20px 0px;
+	margin: 9px 0px;
 	font-family:"NewsGothicBT Roman","Myriad Pro";
 }
 
 .main p{
-	color: #fff;
 	font-size: 14px;
 	font-family: arial;
 	line-height: 25px;
 	margin-top: 0px;
 }
 
+p{
+	color: #fff;
+}
+
 .main .grey-text{
 	color:#7f7f7f;
+}
+
+p.grey-text{
+margin-bottom: 7px;
 }
 
 .right{
@@ -147,23 +153,25 @@ span.purple-glow{
 	padding-left: 15px;
 }
 
+a {
+	text-decoration: none;
+	color:#fff;
+}
+
 /*-------------------------text-square / used on club page-------------------------*/
 
 .text-square{
 	width: 405px;
 	height: 330px;
 	display: inline-block;
+	margin-bottom: 30px;
 }
 
-.text-square{
-
-}
-
-.events p{
+.date p{
 	margin-bottom: 0px;
 }
 
-.events{
+.date{
 	margin-bottom: 30px;
 }
 
@@ -204,9 +212,10 @@ span.purple-glow{
 	height: 31px;
 	position: relative;
 	top: -26px;
+	display: inline-block;
 }
 
-div.white-button{
+.white-button{
 	width: 31px;
 	height: 31px;
 	box-shadow: 0px 0px 5px 0px #fff;
@@ -217,18 +226,23 @@ div.white-button{
 
 .large-content{
 	width: 863px;
-	height: 396px;
+	float:left;
 	font-family: arial;
+	margin-bottom: 30px;
 }
 
 .large-content h2{
 	margin-top: 0px;
 }
 
-.next-event{
-	width: 261px;
+.large-content h1{
+	margin-top: 0px;
+}
+
+
+.event{
+	width: 260px;
 	height: 292px;
-	background-image: url(images/heels.png);
 	font-family: "NewsGothicBT Roman", "Myriad Pro";
 	display: inline-block;
 	float: left;
@@ -236,15 +250,39 @@ div.white-button{
 	margin-right: 39px;
 }
 
-.next-event p{
+.rnb{
+	background-image: url(images/heels.png);
+}
+
+.retro{
+	background-image: url(images/retro.png);
+}
+
+.sexy1{
+	background-image: url(images/sexy.png);
+}
+
+.pop{
+	background-image: url(images/pop.png);
+}
+
+.girls{
+	background-image: url(images/girls.png);
+}
+
+.sexy2{
+	background-image: url(images/turntable.png);
+}
+
+.event p{
 	font-size: 26px;
 	padding-left: 6px;
 	padding-top: 3px;
-	margin-left: 20px;
+	margin-left: 14px;
 }
 
-.next-event h2{
-	margin-left: 20px;
+.event h2{
+	margin-left: 14px;
 	margin-bottom: 0px;
 }
 
@@ -260,12 +298,12 @@ div.white-button{
 	background-image: url(images/transparency-85.png);
 }
 
-.next-event .transparent-black{
+.event .transparent-black{
 	position: relative;
 	top: 54px;
 }
 
-.large-content .purple-box{
+.main .purple-box{
 	width: 135px;
 	height: 32px;
 }
@@ -274,23 +312,152 @@ div.white-button{
 	font-size: 50px;
 }
 
-.large-content .text{
+.text{
 	display: inline-block;
-	float: left;
 	width: 562px;
-	height: 292px;
+
+}
+
+.inline-block{
+	display: inline-block;
 }
 
 
 
+/*-------------------------gallery-------------------------*/
+
+.large-img{
+	width: 861px;
+	height: 456px;
+	margin-bottom: 40px;
+}
+
+.large-img img{
+	min-width:861px;
+	max-width: 861px;
+	max-height: 456px;
+}
+
+.gallery{
+	width: 100%;
+	margin-top: 40px;
+}
+
+h1+.gallery{
+	margin-top: 0px;
+}
+
+.gallery div{
+	margin-bottom: 40px;
+}
+
+.small-img{
+	width: 258px;
+	height: 171px;
+	display: inline-block;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	margin-right: 40px;
+}
+
+.small-img img{
+	max-width: 260px;
+	max-height: 171px;
+}
+
+.portrait{
+	width: 258px;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.portrait img{
+	max-width: 260px;
+	max-height: 260px;
+	margin-bottom: 10px;
+}
+
+.portrait p{
+	margin: 0px;
+}
+
+.large-content .small-img{
+	float: left;
+	margin-bottom: 0px;
+}
+
+.img-right{
+	margin-right: 0px;
+}
+
+.img-bottom{
+	margin-bottom: 0px;
+}
+
+
+/*-------------------------form-------------------------*/
+
+.contact{
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.contact p{
+	display: inline-block;
+}
+
+
+.small-form{
+	width: 380px;
+	height: 30px;
+	float: right;
+	display: inline-block;
+	margin-right: 360px;
+	margin-left: 67px;
+}
+
+.large-form{
+	float: right;
+	display: inline-block;
+	width: 740px;
+	height: 224px;
+}
+
+.contact input[type=submit] {
+	color: #7532A9;
+	background-color: #fff;
+	width: 67px;
+	height: 31px;
+	padding: 0px;
+	border: none;
+	margin-top: 20px;
+	font-size: 26px;
+}
+
+.contact input[type=reset] {
+	color: #7532A9;
+	background-color: #fff;
+	width: 67px;
+	height: 31px;
+	padding: 0px;
+	border: none;
+	margin-top: 20px;
+	font-size: 26px;
+}
+
+.contact+.footer-section{
+	padding-left: 0px;
+}
 
 /*-------------------------footer-------------------------*/
 
 .footer{
-	width: 960px;
+	width: 100%;
 	height: 222px;
 	margin: auto;
 	background-image:url(images/transparency-95.png);
+	clear: left;
 }
 
 .footer-section{
@@ -331,6 +498,7 @@ div.white-button{
 
 .footer li{
 	padding-bottom: 8px;
+	list-style: none;
 }
 
 .footer p{
