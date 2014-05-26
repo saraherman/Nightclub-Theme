@@ -1,5 +1,4 @@
 <?php include 'header.php'; ?>
-
 <div class="container">
 	<div class="main">
 		<h1>Contact Form</h1>
@@ -8,7 +7,7 @@
 				<p>Name:</p><input type="text" name="name" class="small-form"><br>
 				<p>Email:</p><input type="text" name="email" class="small-form"><br>
 				<p>Subject:</p><input type="text" name="subject" class="small-form"><br>
-				<p>Message:</p><input type="text" name="message" class="large-form">
+				<p>Message:</p><textarea type="text" name="message" class="large-form"></textarea>
 				<div class="right">
 					<input type="reset" value="clear" class="white-button">
 					<input type="submit" value="send" class="white-button">
@@ -27,10 +26,5 @@
 			<h1>Miscellaneous Info</h1>
 			<p class="grey-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque.</p>
 		</div>
-
-
-
-
 	</div>
-
 	<?php include 'footer.php'; ?>

@@ -420,7 +420,8 @@ h1+.gallery{
 .large-form{
 	float: right;
 	display: inline-block;
-	width: 740px;
+	width: 738px;
+	max-width: 738px;
 	height: 224px;
 }
 
